@@ -23,6 +23,8 @@ def long_planeteer_calls(planeteer_calls)
   
   planeteer_calls.select { |element|
   element >= 4 
+  }
+  
 end
 
 def find_valid_calls(planeteer_calls)
