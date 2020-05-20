@@ -22,7 +22,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.any? { |element|
-  element.length < 4 
+  element.length > 4 
   }
   
 end
