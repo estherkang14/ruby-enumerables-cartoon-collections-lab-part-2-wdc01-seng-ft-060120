@@ -22,7 +22,7 @@ def long_planeteer_calls(planeteer_calls)
   # Return the boolean result of this check
   
   planeteer_calls.select { |element|
-  element >= 4 
+  element.to_i >= 4 
   }
   
 end
